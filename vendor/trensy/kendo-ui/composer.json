@@ -1,0 +1,23 @@
+{
+    "name": "trensy/kendo-ui",
+    "description": "composer kendo-ui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "trensy",
+            "email": "trensy@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "classmap": [
+            "lib/Kendo"
+        ],
+        "psr-4": {
+            "Trensy\\KendoUI\\": "./src/"
+        }
+    }
+}
